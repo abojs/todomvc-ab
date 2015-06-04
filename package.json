@@ -1,0 +1,26 @@
+{
+  "name": "todomvc-ab",
+  "version": "0.0.0",
+  "description": "A sample of a A/B testing project using Abo.",
+  "main": "index.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/todomvc-ab.git"
+  },
+  "keywords": [
+    "abo",
+    "todomvc"
+  ],
+  "author": "Zoltan Kochan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/todomvc-ab/issues"
+  },
+  "homepage": "https://github.com/zkochan/todomvc-ab#readme",
+  "dependencies": {
+    "abo": "^0.1.1"
+  }
+}
