@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  id: '0',
+  id: 'control',
   name: 'Control'
 };
