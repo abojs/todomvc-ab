@@ -1,0 +1,21 @@
+{
+  "name": "todomvc-ab",
+  "src": "./_build",
+  "serverHost": "localhost:9595",
+  "envs": {
+	"dev": {
+	  "serverHost": "localhost:9595",
+	  "cmds": [
+        ["rm", "-rf", "_build"],
+		["foso", "build", "-m", "--host", "localhost:9595"]
+	  ]
+	},
+	"prod": {
+	  "serverHost": "localhost:9595",
+	  "cmds": [
+        ["rm", "-rf", "_build"],
+		["foso", "build", "-m", "--host", "localhost:9595/prod/dtm"]
+	  ]
+	}
+  }
+}
