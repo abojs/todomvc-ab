@@ -1,4 +1,5 @@
 'use strict';
+
 var fbLike = require('./facebook-like.html');
 
 module.exports = {
