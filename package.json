@@ -22,6 +22,7 @@
   "homepage": "https://github.com/zkochan/todomvc-ab#readme",
   "dependencies": {
     "abo": "^0.1.1",
+    "abo-demo": "0.0.1",
     "fosify-url": "^0.1.0"
   }
 }
