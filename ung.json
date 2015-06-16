@@ -7,14 +7,14 @@
 	  "serverHost": "localhost:9595",
 	  "cmds": [
         ["rm", "-rf", "_build"],
-		["foso", "build", "-m", "--host", "localhost:9595"]
+		["foso", "build", "-m", "--host", "localhost:9595", "--env", "dev"]
 	  ]
 	},
 	"prod": {
 	  "serverHost": "localhost:9595",
 	  "cmds": [
         ["rm", "-rf", "_build"],
-		["foso", "build", "-m", "--host", "localhost:9595/prod/dtm"]
+		["foso", "build", "-m", "--host", "localhost:9595/prod/dtm", "--env", "prod"]
 	  ]
 	}
   }
