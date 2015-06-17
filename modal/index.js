@@ -1,12 +1,11 @@
 'use strict';
-
 var furl = require('fosify-url')(__dirname);
-var loadScript = require('../load-script');
+var writeScript = require('write-script');
 
 module.exports = {
   id: 'sweet-alert',
   name: 'Sweet Alert',
   setup: function() {
-    loadScript(furl('main.js'));
+    writeScript(furl('main.js'));
   }
 };

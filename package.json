@@ -23,6 +23,7 @@
   "dependencies": {
     "abo": "^0.1.1",
     "abo-demo": "0.0.1",
-    "fosify-url": "^0.1.0"
+    "fosify-url": "^0.1.0",
+    "write-script": "0.0.1"
   }
 }
