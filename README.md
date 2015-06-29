@@ -2,7 +2,7 @@
 
 This is a front-end A/B testing project that demonstrate how to use [Abo](https://github.com/zkochan/abo) for writing A/B tests.
 
-These tests are changing the look of [these](https://github.com/zkochan/todomvc-fosify) TodoMVC website.
+These tests are changing the look of [these](https://github.com/fosojs/todomvc-foso) TodoMVC website.
 
 
 ## How to try it out?
@@ -19,7 +19,7 @@ Now you'll have your experiment code hosted by Ung. Open the todomvc website and
 
 ### Development mode
 
-Running the Ung server is simulating how the scripts will be shipped to production. However, during development of the experiments, you won't need Ung setuped locally. Instead, you'll just use [Foso](https://github.com/zkochan/foso) to host the exect experiment that you want to develop. For example, if you want to change the **Facebook Like** experiment, go to the /facebook-like directory and run `foso serve`. It will bundle just the current experiment and use `fosofile.js` as the entry point. Next, run `kibe('abodev')` (Read more about Kibe [here](https://github.com/zkochan/kibe)) in the console of the browser, when on TodoMVC. The page will reload and you'll see a demo of the Facebook like experiment. In this mode you'll be able to edit the experiment and the page will be automatically refreshed.
+Running the Ung server is simulating how the scripts will be shipped to production. However, during development of the experiments, you won't need Ung setuped locally. Instead, you'll just use [Foso](https://github.com/zkochan/foso) to host the exect experiment that you want to develop. For example, if you want to change the **Facebook Like** experiment, go to the /facebook-like directory and run `foso serve`. It will bundle just the current experiment and use `_bundle.js` as the entry point. Next, run `kibe('abodev')` (Read more about Kibe [here](https://github.com/zkochan/kibe)) in the console of the browser, when on TodoMVC. The page will reload and you'll see a demo of the Facebook like experiment. In this mode you'll be able to edit the experiment and the page will be automatically refreshed.
 
 
 ## License
