@@ -27,6 +27,7 @@
   "dependencies": {
     "abo": "^0.1.1",
     "abo-demo": "0.0.1",
+    "domready": "^1.0.8",
     "foso-url": "^0.1.1",
     "write-script": "0.0.1"
   }
