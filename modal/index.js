@@ -1,4 +1,5 @@
 'use strict';
+
 var furl = require('foso-url')(__dirname);
 var writeScript = require('write-script');
 
